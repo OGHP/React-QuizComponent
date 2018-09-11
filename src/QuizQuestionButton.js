@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 class QuizQuestionButton extends Component {
+  // constructor(props){
+  //   super(props)
+  //   this.state = { incorrectAnswer:false }
+  // }
   handleClick(onclick, button) {
     //calls the handle click method in the QuizQuestion component whenever a button is pressed and passes that button text value to that method
     this.props.clickHandler(this.props.button_text)
